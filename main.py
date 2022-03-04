@@ -8,20 +8,8 @@ from YuemiaoPublicAccount.yuemiao import YueMiao
 import sys
 import argparse
 
-cookie = "Cookie: UM_distinctid=176d61668197b-02a1e977b885ce-67341f2e-448e0-176d616681a15f; " \
-         "_xxhm_=%7B%22address%22%3A%22%22%2C%22awardPoints%22%3A0%2C%22birthday%22%3A838915200000%2C%22createTime%22" \
-         "%3A1609909609000%2C%22headerImg%22%3A%22http%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen" \
-         "%2FxjC97SLpMq3cvXlkz52xb36XWnHt7oVewePaFv0VDRL6cKEx2b9SIkIzjHQMO6WKsUevtbvpYOPDiakZ0mJ6cXHibWdf7oXEWS%2F132" \
-         "%22%2C%22id%22%3A9787092%2C%22idCardNo%22%3A%%22%2C%22isRegisterHistory%22%3A0%2C" \
-         "%22latitude%22%3A0.0%2C%22longitude%22%3A0.0%2C%22mobile%22%3A%2215927037762%22%2C%22modifyTime%22" \
-         "%3A1610450895000%2C%22name%22%3A%22%E5%88%98%E9%A6%99%E7%8E%89%22%2C%22nickName%22%3A%22%E9%98%B3%E5%85%89" \
-         "%E4%B8%8B%E7%9A%84%E9%82%A3%E4%BA%BA%22%2C%22openId%22%3A%22oWzsq537IeWEv_66fdxl2rB6Iau4%22%2C%22regionCode" \
-         "%22%3A%22410104%22%2C%22registerTime%22%3A1610450895000%2C%22sex%22%3A2%2C%22source%22%3A1%2C%22uFrom%22%3A" \
-         "%22depa_vacc_detail%22%2C%22unionid%22%3A%22oiGJM6N1lDPclKX-5C46AaSitUXw%22%2C%22wxSubscribed%22%3A1%2C" \
-         "%22yn%22%3A1%7D; _xzkj_=wxtoken:81ef8042d10ceae7f337f34afc100296_626cbc4a28cad4ad521b6d2ef1d68845; " \
-         "MEIQIA_TRACK_ID=1n0u3doGc1unZkM1ex2PVknFjHA; MEIQIA_VISIT_ID=1n0u3j3blqbzmDDRXA0GeWEciqJ; " \
-         "CNZZDATA1261985103=1371327906-1609907284-%7C1610545073 "
-tk = "wxtoken:7c4c6cc081c91e082b3ce3b370405304_2e20b078677a807ed10c6cbcb7d6e743"
+cookie = "UM_distinctid=17f53fc9b930-0d558aae8663bc-1051275-100200-17f53fc9b963f2; _xzkj_=wxtoken:7c4c6cc081c91e082b3ce3b370405304_ddde4b868e9ff4a911ece0c2a81cbfc3; _xxhm_=%7B%22id%22%3A28417589%2C%22mobile%22%3A%2218810913675%22%2C%22nickName%22%3A%22%E6%9E%9C%E7%8C%AB%22%2C%22headerImg%22%3A%22https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLNknMlYDjocHDYoe7oPXM0wDqlllqEJbWDl5ZHXAcYkzW1THm3aKoY367xWkuQ4TiadHMRzsRibZ6A%2F132%22%2C%22regionCode%22%3A%22110105%22%2C%22name%22%3A%22%E8%B5%B5*%E7%A7%80%22%2C%22uFrom%22%3A%22depa_vacc_detail%22%2C%22wxSubscribed%22%3A0%2C%22birthday%22%3A%221997-07-09+02%3A00%3A00%22%2C%22sex%22%3A2%2C%22hasPassword%22%3Atrue%2C%22birthdayStr%22%3A%221997-07-09%22%7D; CNZZDATA1261985103=542957191-1646371066-%7C1646381866"
+tk = "wxtoken:7c4c6cc081c91e082b3ce3b370405304_ddde4b868e9ff4a911ece0c2a81cbfc3"
 
 
 def parse_args():

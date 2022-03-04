@@ -114,7 +114,9 @@ def GET(url, params=None, error_exit=False, **kwargs):
         # msg=用户登录超时,请重新登入!
         if 'msg' in res_json:
             msg = res_json['msg']
-            if '用户登录超时,请重新登入' in msg:
+            if msg is None:
+                print(res_json)
+            elif '用户登录超时,请重新登入' in msg:
                 send_email('约苗提示错误消息：' + str(msg), subject="约苗登录超时")
                 print(msg + '\n结束抢苗')
                 exit(1)
