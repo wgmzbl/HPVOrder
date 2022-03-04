@@ -16,7 +16,7 @@ customId = 3
 vaccIndex = 1
 
 # 抢苗的用户姓名，需要已经在系统中注册该用户名
-username = '张三'
+username = '赵英秀'
 
 # 疫苗规格信息，用户无需修改
 VACCINDE_INFO = {
